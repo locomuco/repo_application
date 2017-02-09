@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="repo_library"   fetch="git://github.com/locomuco/"    />
+  <remote name="origin" fetch="git://git@github.com/locomuco/" />
+  <default revision="master" remote="origin" />
+
+  <project path="lib/plist-lib"
+           name="repo_library" remote="origin" />
 </manifest>
